@@ -7,9 +7,9 @@
     "start": "nodemon server.js",
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "MONGODB_URI=mongodb://localhost/image-gallery-test mocha",
-    "test:debug": "MONGODB_URI=mongodb://localhost/image-gallery-test mocha --debug-brk",
-    "test:watch": "MONGODB_URI=mongodb://localhost/image-gallery-test nodemon --exec mocha"
+    "test": "MONGODB_URI=mongodb://localhost/pet-store-test mocha",
+    "test:debug": "MONGODB_URI=mongodb://localhost/pet-store-test mocha --debug-brk",
+    "test:watch": "MONGODB_URI=mongodb://localhost/pet-store-test nodemon --exec mocha"
   },
   "author": "Marty Nelson <marty@martypdx.com>",
   "license": "ISC",
